@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 @Repository
-@Scope(value="prototype",
+@Scope(value="prototype", // value=ConfigurableBeanFactory.SCOPE_PROTOTYPE,
 		proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class JdbConnection {
 	public JdbConnection() {
