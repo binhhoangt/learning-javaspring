@@ -1,4 +1,4 @@
-package webapp;
+package com.example.servlet;
 
 public class UserValidationService {
 	public boolean isUserValid(String user, String password) {

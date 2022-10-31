@@ -1,4 +1,4 @@
-package webapp;
+package com.example.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
